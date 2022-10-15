@@ -1,0 +1,56 @@
+main{
+    background-color: rgb(43, 198, 226);
+    height: 590px;
+    width: 1000px;
+    /* จัดเนื้อหาเข้ากลาง */
+    margin-right: auto;  
+    margin-left: auto;
+}
+header{
+    background-color: rgb(99, 22, 22); 
+    overflow: hidden;
+}
+#menu{
+    /* background-color: aquamarine; */
+    width: 400px;
+    float: right;
+    
+}
+#logo{
+    /* background-color: rgb(226, 226, 226); */
+    width: 40px;
+    float: left;
+    border-radius: 50%;
+}
+#slide{
+    background-color: brown;
+    height: 200px;  
+    /* รูปที่เซฟมาต้องมีขนาด 1000x200 */
+}
+#content{
+    /* background-color: aquamarine; */
+    height: 100px;
+    margin-left : 60px;
+}
+.subcontent{
+    background-color: bisque;
+    float:left;
+    margin: 10px; 
+    width: 260px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px #8585ee;
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    float: left;
+    margin: 10px;
+}
+body{
+    background-image: linear-gradient(to right top, #e5cedb, #dec4db, #d3bbdd, #c4b4e0, #aeaee4, #9eb4ed, #8abaf3, #73c0f6, #6bd1fc, #6ce1fe, #7af1fc, #90fff8);
+}
